@@ -34,12 +34,14 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="d3ea18e8-f80c-4c1c-9bb7-c11492003e99" time="1370018857156" ignored="false" />
     <file path="/fragment.java" changelist="d3ea18e8-f80c-4c1c-9bb7-c11492003e99" time="1370019004020" ignored="false" />
-    <file path="/MovieAdapter.java" changelist="d3ea18e8-f80c-4c1c-9bb7-c11492003e99" time="1370079975532" ignored="false" />
+    <file path="/MovieAdapter.java" changelist="d3ea18e8-f80c-4c1c-9bb7-c11492003e99" time="1370084162279" ignored="false" />
     <file path="/MainActivity.java" changelist="d3ea18e8-f80c-4c1c-9bb7-c11492003e99" time="1370026596419" ignored="false" />
     <file path="/AndroidManifest.xml" changelist="d3ea18e8-f80c-4c1c-9bb7-c11492003e99" time="1370026040137" ignored="false" />
     <file path="/activity_main.xml" changelist="d3ea18e8-f80c-4c1c-9bb7-c11492003e99" time="1370027635302" ignored="false" />
     <file path="$PROJECT_DIR$/PaginatedGridView/build/res/all/debug/layout/activity_main.xml" changelist="d3ea18e8-f80c-4c1c-9bb7-c11492003e99" time="1370079195028" ignored="false" />
     <file path="/movie_view.xml" changelist="d3ea18e8-f80c-4c1c-9bb7-c11492003e99" time="1370078499008" ignored="false" />
+    <file path="/BitmapWorkerTask.java" changelist="d3ea18e8-f80c-4c1c-9bb7-c11492003e99" time="1370084248941" ignored="false" />
+    <file path="/AsynDrawable.java" changelist="d3ea18e8-f80c-4c1c-9bb7-c11492003e99" time="1370083014135" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,8 +114,10 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PaginatedGridView/src/main/java/balaji/example/paginatedgridview/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="97" selection-start="1049" selection-end="1049" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="33" column="4" selection-start="1291" selection-end="1291" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -127,11 +131,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MovieAdapter.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PaginatedGridView/build/source/r/debug/balaji/example/paginatedgridview/adapter/MovieAdapter.java">
+      <file leaf-file-name="MovieAdapter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PaginatedGridView/src/main/java/balaji/example/adapter/MovieAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="105" column="44" selection-start="3515" selection-end="3515" vertical-scroll-proportion="2.3157895">
-              <folding />
+            <state line="135" column="31" selection-start="4783" selection-end="4783" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#934#941#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BitmapWorkerTask.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PaginatedGridView/src/main/java/balaji/example/asynTask/BitmapWorkerTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="64" selection-start="1312" selection-end="1312" vertical-scroll-proportion="0.65789473">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AsynDrawable.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PaginatedGridView/src/main/java/balaji/example/paginatedgridview/AsynDrawable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="25" selection-start="303" selection-end="315" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -149,9 +178,9 @@
         </entry>
       </file>
       <file leaf-file-name="Movie.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PaginatedGridView/src/main/java/balaji/example/paginatedgridview/balaji/example/model/Movie.java">
+        <entry file="file://$PROJECT_DIR$/PaginatedGridView/src/main/java/balaji/example/model/Movie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
+            <state line="0" column="18" selection-start="18" selection-end="18" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -180,12 +209,15 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/PaginatedGridView/build.gradle" />
-        <option value="$PROJECT_DIR$/PaginatedGridView/src/main/java/balaji/example/paginatedgridview/balaji/example/model/Movie.java" />
         <option value="$PROJECT_DIR$/PaginatedGridView/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/PaginatedGridView/src/main/java/balaji/example/paginatedgridview/MainActivity.java" />
         <option value="$PROJECT_DIR$/PaginatedGridView/src/main/res/layout/movie_view.xml" />
         <option value="$PROJECT_DIR$/PaginatedGridView/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/PaginatedGridView/src/main/java/balaji/example/paginatedgridview/balaji/example/model/Movie.java" />
         <option value="$PROJECT_DIR$/PaginatedGridView/build/source/r/debug/balaji/example/paginatedgridview/adapter/MovieAdapter.java" />
+        <option value="$PROJECT_DIR$/PaginatedGridView/src/main/java/balaji/example/paginatedgridview/MainActivity.java" />
+        <option value="$PROJECT_DIR$/PaginatedGridView/src/main/java/balaji/example/paginatedgridview/AsynDrawable.java" />
+        <option value="$PROJECT_DIR$/PaginatedGridView/src/main/java/balaji/example/adapter/MovieAdapter.java" />
+        <option value="$PROJECT_DIR$/PaginatedGridView/src/main/java/balaji/example/asynTask/BitmapWorkerTask.java" />
       </list>
     </option>
   </component>
@@ -389,6 +421,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="paginatedgridview" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -419,11 +455,145 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="paginatedgridview" />
+              <option name="myItemId" value="example" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PaginatedGridView" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PaginatedGridView" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PaginatedGridView" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="asynTask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PaginatedGridView" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PaginatedGridView" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PaginatedGridView" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adapter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PaginatedGridView" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PaginatedGridView" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PaginatedGridView" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PaginatedGridView" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PaginatedGridView" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PaginatedGridView" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PaginatedGridView" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PaginatedGridView" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PaginatedGridView" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -432,6 +602,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="last_directory_selection" value="$PROJECT_DIR$/PaginatedGridView/src/main/java/balaji/example" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="OverrideImplement.combined" value="true" />
@@ -588,12 +759,12 @@
       <created>1370016766415</created>
       <updated>1370016766415</updated>
       <workItem from="1370016784470" duration="2467000" />
-      <workItem from="1370024892287" duration="5780000" />
+      <workItem from="1370024892287" duration="10035000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8247000" />
+    <option name="totallyTimeSpent" value="12502000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="29" width="1660" height="1010" extended-state="0" />
@@ -686,28 +857,26 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PaginatedGridView/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="415" selection-end="415" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PaginatedGridView/src/main/java/balaji/example/paginatedgridview/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="0" selection-start="1056" selection-end="1056" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PaginatedGridView/build/source/r/debug/balaji/example/paginatedgridview/adapter/MovieAdapter.java">
+    <entry file="file://$PROJECT_DIR$/PaginatedGridView/src/main/java/balaji/example/adapter/MovieAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="45" column="0" selection-start="1052" selection-end="1052" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#934#941#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PaginatedGridView/src/main/java/balaji/example/paginatedgridview/balaji/example/model/Movie.java">
+    <entry file="file://$PROJECT_DIR$/PaginatedGridView/src/main/java/balaji/example/model/Movie.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="0" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
           <folding />
@@ -753,20 +922,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PaginatedGridView/src/main/java/balaji/example/paginatedgridview/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="97" selection-start="1049" selection-end="1049" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PaginatedGridView/src/main/java/balaji/example/paginatedgridview/balaji/example/model/Movie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PaginatedGridView/src/main/res/layout/movie_view.xml">
       <provider editor-type-id="android-designer">
         <state />
@@ -794,10 +949,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PaginatedGridView/build/source/r/debug/balaji/example/paginatedgridview/adapter/MovieAdapter.java">
+    <entry file="file://$PROJECT_DIR$/PaginatedGridView/src/main/java/balaji/example/model/Movie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="44" selection-start="3515" selection-end="3515" vertical-scroll-proportion="2.3157895">
+        <state line="0" column="18" selection-start="18" selection-end="18" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PaginatedGridView/src/main/java/balaji/example/paginatedgridview/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="4" selection-start="1291" selection-end="1291" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PaginatedGridView/src/main/java/balaji/example/paginatedgridview/AsynDrawable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="25" selection-start="303" selection-end="315" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PaginatedGridView/src/main/java/balaji/example/adapter/MovieAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="135" column="31" selection-start="4783" selection-end="4783" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#934#941#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PaginatedGridView/src/main/java/balaji/example/asynTask/BitmapWorkerTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="64" selection-start="1312" selection-end="1312" vertical-scroll-proportion="0.65789473">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

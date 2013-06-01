@@ -5,8 +5,8 @@ import android.app.Activity;
 import android.view.Menu;
 import android.widget.GridView;
 import android.widget.ImageView;
-import balaji.example.paginatedgridview.adapter.MovieAdapter;
-import balaji.example.paginatedgridview.balaji.example.model.Movie;
+import balaji.example.adapter.MovieAdapter;
+import balaji.example.model.Movie;
 
 import java.util.Arrays;
 
