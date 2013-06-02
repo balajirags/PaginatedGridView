@@ -109,6 +109,11 @@
                 path="/Users/balajig/Documents/Projects/Android/PaginatedGridView/PaginatedGridView/src/main/res/layout/movie_view.xml"
                 qualifiers=""
                 type="layout" />
+            <file
+                name="activity_main_list"
+                path="/Users/balajig/Documents/Projects/Android/PaginatedGridView/PaginatedGridView/src/main/res/layout/activity_main_list.xml"
+                qualifiers=""
+                type="layout" />
         </source>
         <source path="/Users/balajig/Documents/Projects/Android/PaginatedGridView/PaginatedGridView/build/res/rs/debug" />
     </dataSet>

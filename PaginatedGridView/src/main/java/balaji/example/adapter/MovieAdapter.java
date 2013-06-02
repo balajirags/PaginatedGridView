@@ -7,13 +7,16 @@ import android.graphics.BitmapFactory;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.os.AsyncTask;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import balaji.example.asynTask.BitmapWorkerTask;
 import balaji.example.model.Movie;
 import balaji.example.paginatedgridview.AsynDrawable;
+import balaji.example.paginatedgridview.R;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -55,11 +58,13 @@ public class MovieAdapter extends BaseAdapter {
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         final ImageView imageView;
+        View row = null;
         if (convertView == null) { // if it's not recycled, initialize some attributes
-            imageView = new ImageView(context);
-        } else {
-            imageView = (ImageView) convertView;
+            row = LayoutInflater.from(context).inflate(R.layout.movie_view, null, false);
+        }else{
+            row = convertView;
         }
+        imageView = (ImageView) row.findViewById(R.id.imageView);
         final Movie movie = movieList.get(position);
         if (cancelPotentialWork(movie.getImageUrl(), imageView)) {
             BitmapWorkerTask task = new BitmapWorkerTask(new WeakReference<ImageView>(imageView));
@@ -67,7 +72,7 @@ public class MovieAdapter extends BaseAdapter {
             imageView.setImageDrawable(asyncDrawable);
             task.execute(movie.getImageUrl());
         }
-        return imageView;
+        return row;
     }
 
     public static int calculateInSampleSize(
