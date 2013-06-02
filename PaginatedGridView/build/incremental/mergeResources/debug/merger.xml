@@ -1,6 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <merger>
 
+    <dataSet config="StaggeredGridView.aar" >
+        <source path="/Users/balajig/Documents/Projects/Android/PaginatedGridView/PaginatedGridView/build/exploded-bundles/StaggeredGridView.aar/res" >
+            <file
+                name="ic_launcher"
+                path="/Users/balajig/Documents/Projects/Android/PaginatedGridView/PaginatedGridView/build/exploded-bundles/StaggeredGridView.aar/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/balajig/Documents/Projects/Android/PaginatedGridView/PaginatedGridView/build/exploded-bundles/StaggeredGridView.aar/res/drawable-ldpi/ic_launcher.png"
+                qualifiers="ldpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/balajig/Documents/Projects/Android/PaginatedGridView/PaginatedGridView/build/exploded-bundles/StaggeredGridView.aar/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="main"
+                path="/Users/balajig/Documents/Projects/Android/PaginatedGridView/PaginatedGridView/build/exploded-bundles/StaggeredGridView.aar/res/layout/main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                path="/Users/balajig/Documents/Projects/Android/PaginatedGridView/PaginatedGridView/build/exploded-bundles/StaggeredGridView.aar/res/values/values.xml"
+                qualifiers="" >
+                <declare-styleable name="StaggeredGridView" >
+                    <attr
+                        name="drawSelectorOnTop"
+                        format="boolean" />
+                    <attr
+                        name="numColumns"
+                        format="integer" />
+                </declare-styleable>
+
+                <string name="app_name" >ACTIVITY_ENTRY_NAME
+                </string>
+            </file>
+        </source>
+    </dataSet>
     <dataSet config="main" >
         <source path="/Users/balajig/Documents/Projects/Android/PaginatedGridView/PaginatedGridView/src/main/res" >
             <file
@@ -26,6 +65,21 @@
             <file
                 name="activity_main"
                 path="/Users/balajig/Documents/Projects/Android/PaginatedGridView/PaginatedGridView/src/main/res/layout/activity_main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_main_list"
+                path="/Users/balajig/Documents/Projects/Android/PaginatedGridView/PaginatedGridView/src/main/res/layout/activity_main_list.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_main_staggered"
+                path="/Users/balajig/Documents/Projects/Android/PaginatedGridView/PaginatedGridView/src/main/res/layout/activity_main_staggered.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="movie_view"
+                path="/Users/balajig/Documents/Projects/Android/PaginatedGridView/PaginatedGridView/src/main/res/layout/movie_view.xml"
                 qualifiers=""
                 type="layout" />
             <file
@@ -104,16 +158,6 @@
                     <!-- API 14 theme customizations can go here. -->
                 </style>
             </file>
-            <file
-                name="movie_view"
-                path="/Users/balajig/Documents/Projects/Android/PaginatedGridView/PaginatedGridView/src/main/res/layout/movie_view.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="activity_main_list"
-                path="/Users/balajig/Documents/Projects/Android/PaginatedGridView/PaginatedGridView/src/main/res/layout/activity_main_list.xml"
-                qualifiers=""
-                type="layout" />
         </source>
         <source path="/Users/balajig/Documents/Projects/Android/PaginatedGridView/PaginatedGridView/build/res/rs/debug" />
     </dataSet>

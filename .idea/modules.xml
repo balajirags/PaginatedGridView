@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/PaginatedGridView.iml" filepath="$PROJECT_DIR$/PaginatedGridView.iml" />
       <module fileurl="file://$PROJECT_DIR$/PaginatedGridView-PaginatedGridView.iml" filepath="$PROJECT_DIR$/PaginatedGridView-PaginatedGridView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/StaggeredGridView/StaggeredGridView.iml" filepath="$PROJECT_DIR$/libraries/StaggeredGridView/StaggeredGridView.iml" />
     </modules>
   </component>
 </project>
