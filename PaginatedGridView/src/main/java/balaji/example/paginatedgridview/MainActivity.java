@@ -17,8 +17,8 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_staggered);
-        StaggeredGridView gridView = (StaggeredGridView) findViewById(R.id.staggeredGridView);
+        setContentView(R.layout.activity_main_list);
+        ListView gridView = (ListView) findViewById(R.id.gridView);
         Movie movieOne = new Movie("http://images.moviebuff.in/ecab0fbc-d8a3-4769-9958-389758e58654?w=500");
         Movie movieTwo = new Movie("http://images.moviebuff.in/e4191484-3938-4801-bd9d-018292fb86f0?w=500");
         Movie movieThree = new Movie("http://images.moviebuff.in/4a6814aa-a47a-460b-9b0a-a001f4d1ac8b?w=500");

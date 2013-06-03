@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="StaggeredGridView.aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/PaginatedGridView/build/exploded-bundles/StaggeredGridView.aar/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
