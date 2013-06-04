@@ -94,6 +94,14 @@ public class MovieAdapter extends BaseAdapter {
             inSampleSize = heightRatio < widthRatio ? heightRatio : widthRatio;
         }
 
+        final float totalPixels = width * height;
+
+        // Anything more than 2x the requested pixels we'll sample down further
+        final float totalReqPixelsCap = reqWidth * reqHeight * 2;
+
+        while (totalPixels / (inSampleSize * inSampleSize) > totalReqPixelsCap) {
+            inSampleSize++;
+        }
         return inSampleSize;
     }
 

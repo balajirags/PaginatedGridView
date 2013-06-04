@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/Users/balajig/Documents/Projects/Android/PaginatedGridView/libraries/StaggeredGridView/res" >
+            <file
+                name="ic_launcher"
+                path="/Users/balajig/Documents/Projects/Android/PaginatedGridView/libraries/StaggeredGridView/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/balajig/Documents/Projects/Android/PaginatedGridView/libraries/StaggeredGridView/res/drawable-ldpi/ic_launcher.png"
+                qualifiers="ldpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/balajig/Documents/Projects/Android/PaginatedGridView/libraries/StaggeredGridView/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="main"
+                path="/Users/balajig/Documents/Projects/Android/PaginatedGridView/libraries/StaggeredGridView/res/layout/main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                path="/Users/balajig/Documents/Projects/Android/PaginatedGridView/libraries/StaggeredGridView/res/values/attrs.xml"
+                qualifiers="" >
+                <declare-styleable name="StaggeredGridView" >
+                    <attr
+                        name="drawSelectorOnTop"
+                        format="boolean" />
+                    <attr
+                        name="numColumns"
+                        format="integer" />
+                </declare-styleable>
+            </file>
+            <file
+                path="/Users/balajig/Documents/Projects/Android/PaginatedGridView/libraries/StaggeredGridView/res/values/strings.xml"
+                qualifiers="" >
+                <string name="app_name" >ACTIVITY_ENTRY_NAME
+                </string>
+            </file>
+        </source>
+        <source path="/Users/balajig/Documents/Projects/Android/PaginatedGridView/libraries/StaggeredGridView/build/res/rs/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/balajig/Documents/Projects/Android/PaginatedGridView/libraries/StaggeredGridView/src/debug/res" />
+    </dataSet>
+
+</merger>

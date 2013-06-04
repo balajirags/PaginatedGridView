@@ -83,6 +83,11 @@
                 qualifiers=""
                 type="layout" />
             <file
+                name="movie_view_smart_image"
+                path="/Users/balajig/Documents/Projects/Android/PaginatedGridView/PaginatedGridView/src/main/res/layout/movie_view_smart_image.xml"
+                qualifiers=""
+                type="layout" />
+            <file
                 name="main"
                 path="/Users/balajig/Documents/Projects/Android/PaginatedGridView/PaginatedGridView/src/main/res/menu/main.xml"
                 qualifiers=""
